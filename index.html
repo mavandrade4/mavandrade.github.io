@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <button class="button" type="button" onclick="navigate('index.html')">ABOUT</button>
+            <button class="button" type="button" onclick="navigate('work.html')">WORK</button>
+        </div>
+        <div class="puzzle">
+            <div id="about">
+            <div id="board"></div>
+            <div id="info">
+                <h3>My name is Mariana, I'm 24 years old</h3>
+                <p></p>
+                <h3>Turns: <span id="turns">0</span></h3>
+            </div>
+        </div>
+        <div id="actions">
+            <button type="button" id="reload" onClick="window.location.reload()">Change puzzle</button>
+        </div>
+        <div id="pieces"></div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
