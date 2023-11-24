@@ -37,6 +37,7 @@ body {
     font-family: Neue Metana Next Free Personal;
     font-weight: 600;
     margin: 2px;
+    padding-right: 25px;
 }
 
 .button:hover , #reload:hover {
