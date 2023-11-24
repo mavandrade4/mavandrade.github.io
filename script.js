@@ -20,7 +20,7 @@ const workItems = [
     },
     {
         imageSrc: "work/impulso.png",
-        title: "Festival Impuslo (Flyer)",
+        title: "Festival Impulso (Flyer)",
         category: "Tipografia",
         year: 2022
     }
@@ -81,7 +81,7 @@ window.onload = function () {
     }
 
     let pic = Math.floor((Math.random() * 5) + 1);
-    document.getElementById("info").getElementsByTagName("p")[0].innerText = getPuzzleText(pic);
+    document.getElementById("info").getElementsByTagName("h3")[0].innerText = getPuzzleText(pic);
 
     for (let i = 0; i < pieces.length; i++) {
         let tile = document.createElement("img");
